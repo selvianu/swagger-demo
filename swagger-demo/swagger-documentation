@@ -1,0 +1,16 @@
+1. Create Spring Boot Project
+2. GetMapping and PostMapping - Test in browser and PostMan
+3. Add "springfox-boot-starter" dependency
+4. Enable Swagger dcocumentation in spring application - "@EnableSwagger2"
+5. Run the application - "http://localhost:9000/swagger-ui/"
+ you can see controller and error controller (we havent designed)
+6. Update/customize the api documentation - create configuration file
+
+<!-- https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter -->
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-boot-starter</artifactId>
+    <version>3.0.0</version>
+</dependency>
+
+This dependency autowires whatever is necessary
